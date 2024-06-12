@@ -1,6 +1,6 @@
 package com.project_itec.cafe.models;
 
-public class Productos {
+public class Producto {
     protected String nombre;
     protected String description;
     protected TipoProducto tipo;
