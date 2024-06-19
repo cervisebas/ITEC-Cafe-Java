@@ -7,5 +7,5 @@ public class Administrador {
     protected int legajos;
 
     void create(String nombre, String apellido, int permisos, int legajo ){};
-    void verificarPermisos(int nivel){};
+    Boolean verificarPermisos(int nivel){return false;}
 }
