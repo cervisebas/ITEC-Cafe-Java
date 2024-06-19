@@ -1,8 +1,8 @@
-package models;
+
+package com.project_itec.cafe.models;
 
 import java.util.ArrayList;
 import java.util.List;
-
 
 
 public class Cliente {
@@ -23,7 +23,5 @@ public class Cliente {
         return lista;
     }
     
-
-
     
 }
