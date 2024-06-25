@@ -18,8 +18,8 @@ public class Cliente {
         this.Correo = Correo;
         this.Telefono = Telefono;
     }
-    public List<String> obtenerVentasCliente(){
-        List<String> lista = new ArrayList();
+    public List<Venta> obtenerVentasCliente(){
+        List<Venta> lista = new ArrayList();
         return lista;
     }
     
