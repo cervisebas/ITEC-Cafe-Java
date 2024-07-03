@@ -1,8 +1,15 @@
 
 package com.project_itec.cafe.models;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import java.util.ArrayList;
 import java.util.List;
+@getter
+@setter
+@NoArgsConstructor
+@AllArgsConstructor
 
 
 public class Cliente {
@@ -10,18 +17,5 @@ public class Cliente {
     protected String Apellido;
     protected String Correo;
     protected int Telefono;
-    
-    
-    public void create(String Nombre,String Apellido,String Correo,int Telefono) {
-        this.Nombre = Nombre;
-        this.Apellido = Apellido;
-        this.Correo = Correo;
-        this.Telefono = Telefono;
-    }
-    public List<String> obtenerVentasCliente(){
-        List<String> lista = new ArrayList();
-        return lista;
-    }
-    
-    
+
 }
