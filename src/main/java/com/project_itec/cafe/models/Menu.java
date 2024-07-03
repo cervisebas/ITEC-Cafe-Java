@@ -1,14 +1,16 @@
 package com.project_itec.cafe.models;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@ AllArgsConstructor    
+@NoArgsConstructor
 
 public class Menu {
-    protected String productos; // Bien 👌
+    protected String productos; 
 
-    public void agregarProducto(String productos){} // Las funciones no llevan ";" al final
-    public void quitarProducto(String productos){} // Bien 👌
-    public String buscarProducto(String nombre){
-        return productos;
-    }
-    public String obtenerMenu(){
-        return productos;
-    }
+   
 }
