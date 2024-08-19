@@ -1,4 +1,13 @@
 package com.project_itec.cafe.models;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@ AllArgsConstructor    
+@NoArgsConstructor
 
 public class Administrador {
     protected String nombre;
@@ -6,6 +15,5 @@ public class Administrador {
     protected int permisos;
     protected int legajos;
 
-    void create(String nombre, String apellido, int permisos, int legajo ){};
-    Boolean verificarPermisos(int nivel){return false;}
+  
 }
