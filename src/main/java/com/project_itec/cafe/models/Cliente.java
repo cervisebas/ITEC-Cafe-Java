@@ -11,6 +11,7 @@ import lombok.Setter;
 @ AllArgsConstructor    
 @NoArgsConstructor
 
+
 public class Cliente {
     protected String Nombre;
     protected String Apellido;
